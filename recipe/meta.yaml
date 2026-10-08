@@ -1,5 +1,5 @@
 {% set name = "paramak" %}
-{% set version = "0.9.11" %}
+{% set version = "0.10.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/paramak-{{ version }}.tar.gz
-  sha256: a9c4cce8ce4fd66e1fffea3754ca2831c0ca6cd2403abbc9a39a0df61df05242
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/paramak-{{ version }}.tar.gz
+  sha256: a08b911049c11e4295b744917290028ffd8c423f2ecca98b539c5374ae17df44
 
 build:
   noarch: python
